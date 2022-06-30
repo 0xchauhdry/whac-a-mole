@@ -3,3 +3,21 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    text-align: center;
+    background: lightgrey;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 456px;
+    height: 456px;
+
+    margin: auto;
+}
+
+img {
+    border: 1px solid black;
+}
